@@ -274,7 +274,11 @@ Opcjonalne parametry, aby dostosować ustawienia aparatu.
 
 *   Ignoruje `cameraDirection` parametr.
 
+*   Ignoruje `saveToPhotoAlbum` parametr. Ważne: Wszystkie zdjęcia zrobione aparatem wp7/8 cordova API są zawsze kopiowane do telefonu w kamerze. W zależności od ustawień użytkownika może to też oznaczać że obraz jest automatycznie przesłane do ich OneDrive. Potencjalnie może to oznaczać, że obraz jest dostępne dla szerszego grona odbiorców niż Twoja aplikacja przeznaczona. Jeśli ten bloker aplikacji, trzeba będzie wdrożenie CameraCaptureTask, opisane na msdn: <http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx> można także komentarz lub górę głosowanie powiązanych kwestii w [śledzenia błędów][3]
+
 *   Ignoruje `mediaType` Właściwość `cameraOptions` jako SDK Windows Phone nie umożliwiają wybór filmów z PHOTOLIBRARY.
+
+ [3]: https://issues.apache.org/jira/browse/CB-2083
 
 ## CameraError
 

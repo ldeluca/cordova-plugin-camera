@@ -249,7 +249,11 @@ Tizen のみをサポートしている、 `destinationType` の `Camera.Destina
 
 *   無視、 `cameraDirection` パラメーター。
 
+*   無視、 `saveToPhotoAlbum` パラメーター。 重要: wp7/8 コルドバ カメラ API で撮影したすべての画像は携帯電話のカメラ巻き物に常にコピーします。 ユーザーの設定に応じて、これも、画像はその OneDrive に自動アップロードを意味できます。 イメージは意図したアプリより広い聴衆に利用できる可能性があります可能性があります。 場合は、このアプリケーションのブロッカー、msdn で説明されているように、CameraCaptureTask を実装する必要があります: <http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx>コメントにすることがありますもかアップ投票関連の問題を[課題追跡システム][3]で
+
 *   無視、 `mediaType` のプロパティ `cameraOptions` として Windows Phone SDK には、フォト ライブラリからビデオを選択する方法は行いません。
+
+ [3]: https://issues.apache.org/jira/browse/CB-2083
 
 ## CameraError
 

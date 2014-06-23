@@ -249,7 +249,11 @@ Tizen만 지원 한 `destinationType` 의 `Camera.DestinationType.FILE_URI` 와 
 
 *   무시는 `cameraDirection` 매개 변수.
 
+*   무시는 `saveToPhotoAlbum` 매개 변수. 중요: 모든 이미지 API wp7/8 코르도바 카메라로 촬영 항상 복사 됩니다 휴대 전화의 카메라 롤에. 사용자의 설정에 따라이 또한 그들의 OneDrive에 자동 업로드 이미지는 의미. 이 잠재적으로 이미지는 당신의 애플 리 케이 션을 위한 보다 넓은 청중에 게 사용할 수 있는 의미. 이 경우 응용 프로그램에 대 한 차단, 당신은 msdn에 설명 대로 단말기를 구현 해야 합니다: <http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx> 수 있습니다 또한 의견 또는 [이슈 트래커][3] 에서 업-투표 관련된 문제
+
 *   무시는 `mediaType` 속성을 `cameraOptions` 으로 Windows Phone SDK PHOTOLIBRARY에서 비디오를 선택 하는 방법을 제공 하지 않습니다.
+
+ [3]: https://issues.apache.org/jira/browse/CB-2083
 
 ## CameraError
 

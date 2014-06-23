@@ -249,7 +249,11 @@ Optionale Parameter die Kameraeinstellungen anpassen.
 
 *   Ignoriert die `cameraDirection` Parameter.
 
+*   Ignoriert die `saveToPhotoAlbum` Parameter. WICHTIG: Alle Aufnahmen die wp7/8 Cordova-Kamera-API werden immer in Kamerarolle des Telefons kopiert. Abhängig von den Einstellungen des Benutzers könnte dies auch bedeuten, dass das Bild in ihre OneDrive automatisch hochgeladen ist. Dies könnte möglicherweise bedeuten, dass das Bild für ein breiteres Publikum als Ihre Anwendung vorgesehen ist. Wenn diese einen Blocker für Ihre Anwendung, Sie müssen die CameraCaptureTask zu implementieren, wie im Msdn dokumentiert: <http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh394006.aspx> Sie können kommentieren oder Up-Abstimmung das Beiträge zu diesem Thema im [Bugtracker][3]
+
 *   Ignoriert die `mediaType` -Eigenschaft des `cameraOptions` wie das Windows Phone SDK keine Möglichkeit, Fotothek Videos wählen.
+
+ [3]: https://issues.apache.org/jira/browse/CB-2083
 
 ## CameraError
 
