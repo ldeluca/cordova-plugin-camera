@@ -28,7 +28,7 @@
 
 Снимает фотографию с помощью камеры, или получает фотографию из галереи изображений устройства. Изображение передается на функцию обратного вызова успешного завершения как `String` в base64-кодировке, или как URI указывающего на файл изображения. Метод возвращает объект `CameraPopoverHandle`, который может использоваться для перемещения инструмента выбора файла.
 
-    navigator.camera.getPicture( cameraSuccess, cameraError, [ cameraOptions ] );
+    navigator.camera.getPicture( cameraSuccess, cameraError, cameraOptions );
     
 
 ### Описание
